@@ -24,6 +24,7 @@ public class TransactionCallback implements TransactionFinishedCallback {
     @Override
     public void onTransactionFinished(TransactionResult transactionResult) {
         if(transactionResult.getResponse() != null){
+            Log.d("trans success", transactionResult.getStatus());
             WritableMap result = Arguments.createMap();
             WritableMap response = Arguments.createMap();
             response.putString("transaction_time",transactionResult.getResponse().getTransactionTime());
@@ -38,6 +39,7 @@ public class TransactionCallback implements TransactionFinishedCallback {
             response.putString("currency",transactionResult.getResponse().getCurrency());
             result.putMap("response",response);
             result.putString("status",transactionResult.getStatus());
+            this.callback.invoke(result);
         }else if(transactionResult.isTransactionCanceled()){
             Log.d("trans canceled", "Payment Canceled");
         }else{

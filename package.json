@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-midtrans-sdk.git",
-    "baseUrl": "https://github.com/github_account/react-native-midtrans-sdk"
+    "url": "git+https://github.com/herarya/react-native-midtrans-sdk.git",
+    "baseUrl": "https://github.com/herarya/react-native-midtrans-sdk"
   },
   "keywords": [
     "react-native"

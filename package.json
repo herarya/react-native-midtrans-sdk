@@ -2,7 +2,7 @@
   "name": "react-native-midtrans-sdk",
   "title": "React Native Midtrans Sdk",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Midtrans SDK react native module [UNOFFICIAL]",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +16,8 @@
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "herman.arya",
+    "email": "herman.arya@live.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
